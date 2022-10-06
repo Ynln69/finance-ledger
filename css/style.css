@@ -116,7 +116,7 @@ body {
 
 .field-input {
   display: block;
-  font-family: 'Open Sans' sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -139,7 +139,7 @@ body {
 
 .request-title {
   text-transform: capitalize;
-  font-family: 'Open Sans' sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 38px;
