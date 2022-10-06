@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --main-wight-color: #ffffff;
+  --main-text-color: #333333;
+  --secondary-dreen-color: #28a745;
+  --first-bg-color: #f4f4f4;
+  --secondary-bg-color: #0284d0;
+  --form-text-color: #808080;
+}
+
+body {
+  font-family: "Open Sans" sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--main-wight-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Business cases */
+.cases-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+}
+.cases-subtitle {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+.cases-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1, 55;
+}
