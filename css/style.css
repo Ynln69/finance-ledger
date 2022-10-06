@@ -27,6 +27,48 @@ body {
   list-style: none;
 }
 
+.hero-title {
+  margin: 0 auto;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  text-align: center;
+  color: #e9e9e9;
+  margin-top: 25px;
+}
+
+.hero-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.7;
+  text-align: center;
+  color: #e9e9e9;
+  margin-top: 29px;
+}
+
+.hero-button {
+  background: #28a745;
+  border: #28a745;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  padding-right: 30px;
+  padding-left: 27px;
+}
+
 /* Business cases */
 .cases-title {
   font-weight: 400;
@@ -43,3 +85,79 @@ body {
   font-size: 18px;
   line-height: 1, 55;
 }
+
+/* Request section */
+
+.request-section {
+  background-color: #f4f4f4;
+  width: 1360px;
+}
+
+.request-container {
+  display: flex;
+  width: 1360px;
+}
+
+.image-request {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.request-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 680px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 78px;
+  padding-bottom: 82px;
+}
+
+.field-input {
+  display: block;
+  font-family: 'Open Sans' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  color: #808080;
+  width: 620px;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border: none;
+}
+
+.first-input {
+  margin-bottom: 36px;
+}
+
+.second-input {
+  margin-bottom: 60px;
+}
+
+.request-title {
+  text-transform: capitalize;
+  font-family: 'Open Sans' sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: calc(48 / 38);
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 34px;
+}
+
+.button-request {
+  display: block;
+  background-color: #28a745;
+  color: #ffffff;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  width: 620px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+
