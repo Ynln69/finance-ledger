@@ -1,7 +1,23 @@
+:root {
+  --main-white-color: #ffffff;
+  --main-text-color: #333333;
+  --hero-text-color: #e9e9e9;
+  --secondary-green-color: #28a745;
+  --first-bg-color: #f4f4f4;
+  --secondary-bg-color: #0284d0;
+  --form-text-color: #808080;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--main-wight-color);
+}
+
 /* Request section */
 
 .request-section {
-  background-color: #f4f4f4;
+  background-color: var(--first-bg-color);
   width: 1360px;
 }
 
@@ -10,36 +26,32 @@
 }
 
 .form-text {
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: calc(28 / 18);
-  color: #808080;
+  color: var(--form-text-color);
 }
 
 .request-title {
   text-transform: capitalize;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
+
   font-weight: 300;
   font-size: 38px;
   line-height: calc(48 / 38);
-  color: #333333;
+  color: var(--main-text-color);
 }
 
 .button-request {
-  background-color: #28a745;
-  color: #ffffff;
+  background-color: var(--secondary-green-color);
+  color: var(--main-white-color);
   border-radius: 5px;
   border-style: none;
   cursor: pointer;
-  font-family: "Open Sans";
-  font-style: normal;
+
   font-weight: 400;
   font-size: 18px;
   line-height: calc(25 / 18);
-  color: #ffffff;
+  color: var(--main-white-color);
   padding-left: 291px;
   padding-right: 277px;
   padding-top: 7px;
