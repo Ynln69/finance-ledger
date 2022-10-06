@@ -11,7 +11,8 @@ html {
 :root {
   --main-wight-color: #ffffff;
   --main-text-color: #333333;
-  --secondary-dreen-color: #28a745;
+  --hero-text-color: #e9e9e9;
+  --secondary-green-color: #28a745;
   --first-bg-color: #f4f4f4;
   --secondary-bg-color: #0284d0;
   --form-text-color: #808080;
@@ -22,27 +23,26 @@ body {
   color: var(--main-text-color);
   background-color: var(--main-wight-color);
 }
-
 .list {
   list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 
 /* Hero style */
 .hero-title {
   margin: 0 auto;
-  font-family: "Open Sans";
-  font-style: normal;
+  margin-top: 25px;
+
+  color: var(--hero-text-color);
   font-weight: 300;
   font-size: 55px;
   line-height: 1.2;
   text-align: center;
-  color: #e9e9e9;
-  margin-top: 25px;
 }
 
 .hero-text {
-  font-family: "Open Sans";
-  font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 1.7;
@@ -52,22 +52,21 @@ body {
 }
 
 .hero-button {
-  background: #28a745;
-  border: #28a745;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.6;
-  text-align: center;
-  color: #ffffff;
-  border-radius: 5px;
-  margin: 0 auto;
   display: block;
+  margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 9px;
   padding-right: 30px;
   padding-left: 27px;
+  border-radius: 5px;
+  border: var(--secondary-green-color);
+
+  color: var(--main-wight-color);
+  background: var(--secondary-green-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
 }
 
 /* Business cases */
@@ -84,7 +83,7 @@ body {
 .cases-text {
   font-weight: 300;
   font-size: 18px;
-  line-height: 1, 55;
+  line-height: 1.55;
 }
 
 /* Request section */
