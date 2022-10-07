@@ -32,9 +32,6 @@ body {
 
 /* Hero style */
 .hero-title {
-  margin: 0 auto;
-  margin-top: 25px;
-
   color: var(--hero-text-color);
   font-weight: 300;
   font-size: 55px;
@@ -47,17 +44,10 @@ body {
   font-size: 22px;
   line-height: 1.7;
   text-align: center;
-  color: #e9e9e9;
-  margin-top: 29px;
+  color: var(--hero-text-color);
 }
 
 .hero-button {
-  display: block;
-  margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 9px;
-  padding-right: 30px;
-  padding-left: 27px;
   border-radius: 5px;
   border: var(--secondary-green-color);
 
@@ -141,74 +131,42 @@ body {
 /* Request section */
 
 .request-section {
-  background-color: #f4f4f4;
+  background-color: var(--first-bg-color);
   width: 1360px;
 }
 
-.request-container {
-  display: flex;
-  width: 1360px;
+.list {
+  list-style: none;
 }
 
-.image-request {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.request-form-container {
-  display: flex;
-  flex-direction: column;
-  width: 680px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 78px;
-  padding-bottom: 82px;
-}
-
-.field-input {
-  display: block;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
+.form-text {
   font-weight: 400;
   font-size: 18px;
   line-height: calc(28 / 18);
-  color: #808080;
-  width: 620px;
-  padding-top: 6px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  border: none;
-}
-
-.first-input {
-  margin-bottom: 36px;
-}
-
-.second-input {
-  margin-bottom: 60px;
+  color: var(--form-text-color);
 }
 
 .request-title {
   text-transform: capitalize;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
   font-weight: 300;
   font-size: 38px;
   line-height: calc(48 / 38);
-  color: #333333;
-  margin-top: 0;
-  margin-bottom: 34px;
+  color: var(--main-text-color);
 }
 
 .button-request {
-  display: block;
-  background-color: #28a745;
-  color: #ffffff;
+  background-color: var(--secondary-green-color);
+  color: var(--main-white-color);
   border-radius: 5px;
   border-style: none;
   cursor: pointer;
-  width: 620px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(25 / 18);
+  color: var(--main-white-color);
+  padding-left: 291px;
+  padding-right: 277px;
   padding-top: 7px;
   padding-bottom: 10px;
 }
