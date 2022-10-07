@@ -97,6 +97,17 @@ body {
   font-size: 18px;
   line-height: 1.55;
 }
+
+.team-name {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.28;
+}
+
+.team-position {
+  font-size: 18px;
+  line-height: 1.55;
+}
 /* Request section */
 
 .request-section {
