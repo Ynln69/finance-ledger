@@ -58,6 +58,23 @@ body {
   line-height: 1.6;
   text-align: center;
 }
+/* Icon section */
+.iconlist{
+  list-style-type: none;
+}
+
+
+
+.icontitle{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+}
+.icontext{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+}
 
 /* Business cases */
 .cases-title {
