@@ -1,0 +1,17 @@
+:root {
+  --green-button: #28a745;
+  --green-text-banner: #28a745;
+  --text-white: #fff;
+  --text-family: 'Open Sans', sans-serif;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: var(--green-text-banner);
+}
+.nav-item {
+  text-decoration: none;
+}
+.nav-item {
+  list-style-type: none;
+}
