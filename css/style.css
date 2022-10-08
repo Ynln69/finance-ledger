@@ -2,16 +2,37 @@
   --green-button: #28a745;
   --green-text-banner: #28a745;
   --text-white: #fff;
+  --background-white: #fff;
   --text-family: 'Open Sans', sans-serif;
 }
 body {
+  background-color: var(--background-white);
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  color: var(--green-text-banner);
+  color: var(--text-white);
 }
-.nav-item {
+
+.nav-list {
+  list-style-type: none;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.nav-link {
   text-decoration: none;
 }
-.nav-item {
-  list-style-type: none;
+.logo-first {
+  font-size: 35px;
+}
+.logo-second {
+  font-size: 35px;
+}
+.logo-img:hover {
+  text-decoration: underline;
+}
+.logo-first:hover {
+  text-decoration: underline;
+}
+.logo-second:hover {
+  text-decoration: underline;
 }
