@@ -51,3 +51,14 @@ body {
 .logo-second:hover {
   text-decoration: underline;
 }
+.hero-title {
+  font-size: 55px;
+  text-transform: capitalize;
+}
+.hero-promo {
+  font-size: 22px;
+}
+.hero-button {
+  font-size: 18px;
+  font-family: inherit;
+}
