@@ -102,6 +102,45 @@ body {
   font-size: 18px;
   line-height: 1.55;
 }
+/* Стилізація секції command */
+.command-section {
+  background-color: var(--secondary-green-color);
+}
+.command-img {
+  display: block;
+  max-width: 680px;
+}
+.command-text-first {
+  color: var(--main-wight-color);
+  font-size: 20px;
+  line-height: 1.21;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.command-title {
+  color: var(--main-wight-color);
+  font-style: 300;
+  font-size: 38px;
+  line-height: 0.93;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.command-text-second {
+  color: var(--main-wight-color);
+  font-size: 18px;
+  line-height: 1.15;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-width: 606px;
+}
+.command-button {
+  color: var(--main-wight-color);
+  background-color: var(--secondary-green-color);
+  font-size: 18px;
+  line-height: 1.15;
+  border: 1px solid var(--main-wight-color);
+  padding: 11px 27px 12px 42px;
+}
 
 /* Business cases */
 .cases-title {
