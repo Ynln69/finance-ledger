@@ -21,8 +21,8 @@ html {
 body {
   background-color: var(--main-wight-color);
   color: var(--main-text-color);
-  
-  font-family: 'Open Sans', sans-serif;
+
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
@@ -33,10 +33,9 @@ body {
   text-decoration: none;
 }
 
-
 /*Header styles*/
 .logo-img {
-color: var(--secondary-green-color)
+  color: var(--secondary-green-color);
 }
 
 .logo-first {
@@ -79,7 +78,7 @@ color: var(--secondary-green-color)
 
 .hero-button {
   border-radius: 5px;
-  border: var(--secondary-green-color);
+  border: none;
 
   color: var(--main-wight-color);
   background: var(--secondary-green-color);
@@ -89,16 +88,16 @@ color: var(--secondary-green-color)
   text-align: center;
 }
 /* Icon section */
-.iconlist{
-  list-style-type: none;
+.icon-section {
+  background-color: var(--first-bg-color);
 }
 
-.icontitle{
+.icon-title {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.65;
 }
-.icontext{
+.icon-text {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
@@ -160,13 +159,13 @@ color: var(--secondary-green-color)
 }
 
 .blog-button {
-  background-color: var(--secondary-bg-color);
   display: block;
   border-radius: 5px;
   border: 1px solid var(--main-wight-color);
   width: 196px;
   height: 50px;
   cursor: pointer;
+  background-color: var(--secondary-bg-color);
 }
 
 /* Request section */
@@ -174,10 +173,6 @@ color: var(--secondary-green-color)
 .request-section {
   background-color: var(--first-bg-color);
   width: 1360px;
-}
-
-.list {
-  list-style: none;
 }
 
 .form-text {
