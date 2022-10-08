@@ -19,15 +19,45 @@ html {
 }
 
 body {
-  font-family: "Open Sans" sans-serif;
-  color: var(--main-text-color);
   background-color: var(--main-wight-color);
+  color: var(--main-text-color);
+  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
+
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
+}
+
+
+/*Header styles*/
+.logo-img {
+color: var(--secondary-green-color)
+}
+
+.logo-first {
+  color: var(--secondary-green-color);
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.2;
+}
+
+.logo-second {
+  color: var(--main-wight-color);
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.2;
+}
+
+.nav-link {
+  color: var(--main-wight-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
 }
 
 /* Hero style */
@@ -62,8 +92,6 @@ body {
 .iconlist{
   list-style-type: none;
 }
-
-
 
 .icontitle{
   font-weight: 400;
