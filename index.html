@@ -20,13 +20,26 @@
   <body>
     <header class="header-section">
       <nav class="navigation">
-        <a class="logo" href="./index.html">Finance <span>Ledger</span></a>
-        <ul class="nav-list">
-          <li class="nav-item"><a href="./index.html">Home</a></li>
-          <li class="nav-item"><a href="#">About</a></li>
-          <li class="nav-item"><a href="#">Cases</a></li>
-          <li class="nav-item"><a href="#">Blog</a></li>
-          <li class="nav-item"><a href="#">Contact</a></li>
+        <img src="./image/Vector-book1.svg" />
+        <a class="logo-first link" href="./index.html"
+          >Finance<span class="logo-second link">Ledger</span></a
+        >
+        <ul class="nav-list list">
+          <li class="nav-item">
+            <a class="nav-link link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="#">Cases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" href="#">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -35,14 +48,25 @@
         <h1 class="hero-title">The Sky Is The Limit</h1>
         <p class="hero-text">We provide world class financial assistance</p>
         <button type="button" class="hero-button">
-          &#62;<span>Read More</span>
+          <span class="button-icon">&#62;</span>Read More
         </button>
+      <!-- What you are looking for section -->
+      <section class="command-section">
         <img
-          class="about-images"
-          src="./image/hero-rectangle.jpg"
-          alt="sity"
-          width="1360"
+          class="command-img"
+          src="./image/command.jpg"
+          alt="Our command"
+          width="680"
         />
+        <p class="command-text-first">What you are looking for</p>
+        <h2 class="command-title">We provide bespoke solutions</h2>
+        <p class="command-text-second">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
+          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
+          iste maiores deleniti?
+        </p>
+        <button type="button" class="command-button">Read more</button>
       </section>
       <section class="cases section">
         <h2 class="cases-title">This is what we do</h2>
@@ -191,24 +215,46 @@
       </section>
       <!--Request section -->
       <section class="request-section section">
-        <div class="request-container container">
-          <img
-            src="./image/request.jpg"
-            alt="man is sitting at the table holding phone in right hand and looking at the screen of the laptop"
-            width="680"
-            class="img-request"
-          />
-            <h2 class="request-title">Request callback</h2>
-              <ul class="list list-request">
-                <li class="form-text">Enter your name</li>
-                <li class="form-text">Enter email*</li>
-              </ul>
-              <button type="submit" class="button-request">Send</button>
-            </form>
-          </div>
-        </div>
+        <img
+          src="./image/request.jpg"
+          alt="man is sitting at the table holding phone in right hand and looking at the screen of the laptop"
+          width="680"
+          class="img-request"
+        />
+        <h2 class="request-title">Request callback</h2>
+        <ul class="list list-request">
+          <li class="form-text">Enter your name</li>
+          <li class="form-text">Enter email*</li>
+        </ul>
+        <button type="submit" class="button-request">Send</button>
       </section>
     </main>
-
+    <footer>
+      <p>Copyright © 2021 - FinanceLedger</p>
+      <address class="footer">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="./image/face.svg" alt="link to faccbook" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./image/twitter.svg" alt="link to witter" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./image/youtube.svg" alt="link to youtube" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./image/in.svg" alt="link to linkedin" />
+            </a>
+          </li>
+        </ul>
+      </address>
+    </footer>
   </body>
 </html>
