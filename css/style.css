@@ -1,4 +1,57 @@
+/* Hero style */
+
+:root {
+  --main-wight-color: #ffffff;
+  --main-text-color: #333333;
+  --hero-text-color: #e9e9e9;
+  --secondary-green-color: #28a745;
+  --first-bg-color: #f4f4f4;
+  --secondary-bg-color: #0284d0;
+  --form-text-color: #808080;
+}
+
 .hero-title {
+  color: var(--hero-text-color);
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.7;
+  text-align: center;
+  color: var(--hero-text-color);
+}
+
+.button-icon {
+  padding-left: 27px;
+  padding-right: 5px;
+  padding-top: 16px;
+  padding-bottom: 14px;
+}
+
+.hero-button {
+  border-radius: 5px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  padding-right: 30px;
+
+  color: var(--main-wight-color);
+  background: var(--secondary-green-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+/* .hero-title {
   margin: 0 auto;
   font-family: 'Open Sans';
   font-style: normal;
@@ -34,8 +87,4 @@
   border-radius: 5px;
   margin: 0 auto;
   display: block;
-  padding-top: 10px;
-  padding-bottom: 9px;
-  padding-right: 30px;
-  padding-left: 27px;
-}
+} */
