@@ -134,6 +134,7 @@ body {
   max-width: 606px;
 }
 .command-button {
+  font-style: inherit;
   color: var(--main-wight-color);
   background-color: var(--secondary-green-color);
   font-size: 18px;
