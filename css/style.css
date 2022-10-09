@@ -206,3 +206,8 @@ body {
   padding-top: 7px;
   padding-bottom: 10px;
 }
+
+.footer {
+  width: 1360px;
+  background: #333333;
+}
