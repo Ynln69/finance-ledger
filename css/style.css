@@ -119,7 +119,7 @@ body {
 }
 .command-title {
   color: var(--main-wight-color);
-  font-style: 300;
+  font-style: 300, sans-serif;
   font-size: 38px;
   line-height: 0.93;
   margin-top: 0px;
