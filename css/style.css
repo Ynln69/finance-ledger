@@ -83,30 +83,46 @@ body {
 }
 /* Hero style */
 .hero-title {
+  font-family: 'Open Sans';
   color: var(--hero-text-color);
   font-weight: 300;
+  font-style: normal;
   font-size: 55px;
-  line-height: 1.2;
+  line-height: calc(66 / 55);
   text-align: center;
+  margin: 0 auto;
+  margin-top: 25px;
 }
 
 .hero-text {
+  font-family: 'Open Sans';
   font-weight: 400;
   font-size: 22px;
-  line-height: 1.7;
+  font-style: normal;
+  line-height: calc(37 / 22);
   text-align: center;
   color: var(--hero-text-color);
+  margin-top: 29px;
 }
 
 .hero-button {
   border-radius: 5px;
   border: none;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  padding-right: 30px;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
 
   color: var(--main-wight-color);
   background: var(--secondary-green-color);
+  border: var(--secondary-green-color);
+  font-family: 'Open Sans';
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: calc(28 / 18);
   text-align: center;
 }
 /* Icon section */
