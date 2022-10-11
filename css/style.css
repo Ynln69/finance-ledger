@@ -17,6 +17,17 @@ body {
   font-size: 14px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .list {
   margin: 0;
   padding: 0;
@@ -34,7 +45,7 @@ body {
   padding-left: 30px;
 }
 /*Header styles*/
-.header-section {
+.header {
   background-color: teal;
 }
 
@@ -126,16 +137,31 @@ body {
   text-align: center;
 }
 /* Icon section */
-.icon-section {
+.icon {
+  padding-top: 40px;
+  padding-bottom: 19px;
   background-color: var(--first-bg-color);
 }
 
+.icon-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 71px;
+}
+
+.icon-item {
+  text-align: center;
+}
 .icon-title {
+  margin-bottom: 16px;
+
   font-weight: 400;
   font-size: 20px;
-  line-height: 1.65;
+  line-height: calc(33 / 20);
 }
 .icon-text {
+  width: 362px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
@@ -182,20 +208,50 @@ body {
 }
 
 /* Business cases */
+.cases {
+  width: 100%;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
 .cases-title {
+  margin-bottom: 17px;
+
   font-weight: 400;
   font-size: 20px;
   line-height: 1.65;
 }
 .cases-subtitle {
+  display: inline-block;
+  margin-bottom: 34px;
+
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
 }
 .cases-text {
+  margin-bottom: 39px;
+
   font-weight: 300;
   font-size: 18px;
   line-height: 1.55;
+}
+
+.cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -8px;
+  margin-bottom: -8px;
+}
+.cases-item {
+  width: calc(100% / 4 - 8px);
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.cases-img {
+  display: block;
 }
 
 /* team  section */
@@ -359,6 +415,23 @@ body {
 }
 
 .footer {
-  width: 1360px;
-  background: #333333;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  background: var(--main-text-color);
+}
+.address-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  color: var(--main-wight-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  text-align: center;
 }
