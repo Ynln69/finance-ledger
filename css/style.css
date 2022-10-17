@@ -116,7 +116,11 @@ p {
   margin-top: 29px;
 }
 
+<<<<<<< Updated upstream
 /* .hero-button {
+=======
+.hero-button {
+>>>>>>> Stashed changes
   position: relative;
   padding-top: 10px;
   padding-bottom: 9px;
@@ -144,6 +148,7 @@ p {
   width: 30px;
   position: absolute;
   display: inline-block;
+<<<<<<< Updated upstream
   top: 35%;
   left: 15px;
 }
@@ -168,6 +173,10 @@ p {
   font-weight: 400;
   font-size: 18px;
   line-height: calc(28 / 18);
+=======
+  top: 34%;
+  left: 20px;
+>>>>>>> Stashed changes
 }
 
 /* Icon section */
