@@ -117,14 +117,14 @@ p {
 }
 
 .hero-button {
-  border-radius: 5px;
-  border: none;
   padding-top: 10px;
   padding-bottom: 9px;
   padding-right: 30px;
   border-radius: 5px;
   margin: 0 auto;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   color: var(--main-wight-color);
   background: var(--secondary-green-color);
@@ -136,6 +136,11 @@ p {
   line-height: calc(28 / 18);
   text-align: center;
 }
+
+.hero-button-icon {
+  fill: var(--main-wight-color);
+}
+
 /* Icon section */
 .icon {
   padding-top: 40px;
