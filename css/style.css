@@ -45,10 +45,20 @@ p {
   padding-left: 30px;
 }
 /*Header styles*/
-.header {
-  background-color: teal;
-}
 
+.background {
+  max-width: 1360px;
+  height: 768px;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-color: var(--secondary-green-color);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../image/hero-rectangle.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .navigation {
   display: flex;
   align-items: center;
@@ -93,6 +103,11 @@ p {
   line-height: 1.55;
 }
 /* Hero style */
+.hero {
+  padding-top: 209px;
+  padding-bottom: 284px;
+}
+
 .hero-title {
   font-family: 'Open Sans';
   color: var(--hero-text-color);
@@ -101,8 +116,7 @@ p {
   font-size: 55px;
   line-height: calc(66 / 55);
   text-align: center;
-  margin: 0 auto;
-  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .hero-text {
@@ -113,7 +127,7 @@ p {
   line-height: calc(37 / 22);
   text-align: center;
   color: var(--hero-text-color);
-  margin-top: 29px;
+  margin-bottom: 29px;
 }
 
 .hero-button-icon {
