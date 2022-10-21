@@ -45,10 +45,20 @@ p {
   padding-left: 30px;
 }
 /*Header styles*/
-.header {
-  background-color: teal;
-}
 
+.background {
+  max-width: 1360px;
+  height: 768px;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-color: var(--secondary-green-color);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../image/hero-rectangle.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .navigation {
   display: flex;
   align-items: center;
@@ -93,6 +103,11 @@ p {
   line-height: 1.55;
 }
 /* Hero style */
+.hero {
+  padding-top: 209px;
+  padding-bottom: 284px;
+}
+
 .hero-title {
   font-family: 'Open Sans';
   color: var(--hero-text-color);
@@ -101,8 +116,7 @@ p {
   font-size: 55px;
   line-height: calc(66 / 55);
   text-align: center;
-  margin: 0 auto;
-  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .hero-text {
@@ -113,32 +127,40 @@ p {
   line-height: calc(37 / 22);
   text-align: center;
   color: var(--hero-text-color);
-  margin-top: 29px;
-}
-
-.hero-button {
-  padding-top: 10px;
-  padding-bottom: 9px;
-  padding-right: 30px;
-  border-radius: 5px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  color: var(--main-wight-color);
-  background: var(--secondary-green-color);
-  border: var(--secondary-green-color);
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: calc(28 / 18);
-  text-align: center;
+  margin-bottom: 29px;
 }
 
 .hero-button-icon {
   fill: var(--main-wight-color);
+  width: 30px;
+  position: absolute;
+  display: inline-block;
+  top: 35%;
+  left: 15px;
+}
+
+.hero-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  border-radius: 5px;
+  margin: 0 auto;
+  gap: 5px;
+
+  color: var(--main-wight-color);
+  fill: var(--main-wight-color);
+  background: var(--secondary-green-color);
+  border: var(--secondary-green-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  top: 34%;
+  left: 20px;
 }
 
 /* Icon section */
