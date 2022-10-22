@@ -59,8 +59,14 @@ body {
   text-align: center;
 }
 /* Icon section */
+.iconsection{
+padding-top: 40px;
+padding-bottom:19px ;
+
+}
 .iconlist{
-  list-style-type: none;
+  list-style: none;
+  display: flex;
 }
 
 
