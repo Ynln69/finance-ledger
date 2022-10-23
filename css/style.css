@@ -41,8 +41,6 @@ p {
   width: 1360px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px;
 }
 /*Header styles*/
 
@@ -306,6 +304,59 @@ p {
   display: block;
 }
 
+/* Blog Post One */
+.blog-section {
+  background-color: var(--secondary-bg-color);
+  padding: 112px 0 123px 0;
+  margin: 0 auto;
+  max-width: 1360px;
+  background-image: url(../image/cup-of-coffee.jpg);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.blog-title {
+  color: var(--main-wight-color);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  margin-bottom: 5px;
+}
+.blog-subtitle {
+  color: var(--main-wight-color);
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  margin-bottom: 26px;
+}
+.blog-text {
+  color: var(--main-wight-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  width: 606px;
+  margin-bottom: 17px;
+}
+.blog-button {
+  color: var(--main-wight-color);
+  font-size: 18px;
+  line-height: 1.55px;
+}
+.blog-button {
+  display: block;
+  border-radius: 5px;
+  border: 1px solid var(--main-wight-color);
+  width: 196px;
+  height: 50px;
+  cursor: pointer;
+  background-color: var(--secondary-bg-color);
+}
+
 /* team  section */
 .team {
   padding: 50px 0 60px 0;
@@ -378,56 +429,6 @@ p {
   font-size: 18px;
   line-height: 1.55;
 }
-
-/* Blog Post One */
-.blog-background {
-  background-color: var(--secondary-bg-color);
-  width: 680px;
-  height: 517px;
-}
-
-.blog-title {
-  color: var(--main-wight-color);
-
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.65;
-}
-
-.blog-subtitle {
-  color: var(--main-wight-color);
-
-  font-weight: 300;
-  font-size: 38px;
-  line-height: 1.26;
-}
-
-.blog-text {
-  color: var(--main-wight-color);
-
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.56;
-}
-
-.blog-button {
-  color: var(--main-wight-color);
-
-  font-size: 18px;
-  line-height: 1.55px;
-}
-
-.blog-button {
-  display: block;
-  border-radius: 5px;
-  border: 1px solid var(--main-wight-color);
-  width: 196px;
-  height: 50px;
-  cursor: pointer;
-  background-color: var(--secondary-bg-color);
-}
-
-/* Team */
 
 /* Request section */
 
@@ -507,7 +508,7 @@ p {
   padding-top: 7px;
   padding-bottom: 10px;
 }
-
+/* FOOTER */
 .footer {
   padding-top: 20px;
   padding-bottom: 16px;
