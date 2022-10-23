@@ -266,8 +266,10 @@ body {
 /* Request section */
 
 .request-section {
-  background-color: #f4f4f4;
+  background-color: var(--first-bg-color);
   width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .request-container {
@@ -295,12 +297,10 @@ body {
   display: block;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
-}
-.form-text {
   font-weight: 400;
   font-size: 18px;
   line-height: calc(28 / 18);
-  color: #808080;
+  color: var(--form-text-color);
   width: 620px;
   padding-top: 6px;
   padding-bottom: 5px;
@@ -318,22 +318,20 @@ body {
 
 .request-title {
   text-transform: capitalize;
-
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
-
   font-weight: 300;
   font-size: 38px;
   line-height: calc(48 / 38);
-  color: #333333;
+  color: var(--main-text-color);
   margin-top: 0;
   margin-bottom: 34px;
 }
 
 .button-request {
   display: block;
-  background-color: #28a745;
-  color: #ffffff;
+  background-color: var(--secondary-green-color);
+  color: var(--main-wight-color);
   border-radius: 5px;
   border-style: none;
   cursor: pointer;
@@ -341,6 +339,8 @@ body {
   padding-top: 7px;
   padding-bottom: 10px;
 }
+
+/* Footer */
 
 .footer {
   width: 1360px;
