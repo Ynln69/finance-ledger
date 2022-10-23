@@ -189,13 +189,7 @@ p {
 }
 
 /* Icon section */
-.iconsection {
-  padding-top: 40px;
-  padding-bottom: 19px;
-}
-.iconlist {
-  list-style: none;
-  display: flex;
+.icon {
   padding-top: 40px;
   padding-bottom: 19px;
   background-color: var(--first-bg-color);
@@ -386,22 +380,10 @@ p {
 }
 
 /* Blog Post One */
-.blog-section {
+.blog-background {
   background-color: var(--secondary-bg-color);
-  padding: 112px 0 123px 0;
-
-  margin: 0 auto;
-  max-width: 1360px;
-  background-image: url(../image/cup-of-coffee.jpg);
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
-}
-
-.blog-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
+  width: 680px;
+  height: 517px;
 }
 
 .blog-title {
@@ -410,7 +392,6 @@ p {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.65;
-  margin-bottom: 5px;
 }
 
 .blog-subtitle {
@@ -419,7 +400,6 @@ p {
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
-  margin-bottom: 26px;
 }
 
 .blog-text {
@@ -428,8 +408,6 @@ p {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
-  width: 606px;
-  margin-bottom: 17px;
 }
 
 .blog-button {
