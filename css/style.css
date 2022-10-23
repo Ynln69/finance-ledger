@@ -189,15 +189,13 @@ p {
 }
 
 /* Icon section */
-.iconsection{
-padding-top: 40px;
-padding-bottom:19px ;
-
+.iconsection {
+  padding-top: 40px;
+  padding-bottom: 19px;
 }
-.iconlist{
+.iconlist {
   list-style: none;
   display: flex;
-.icon {
   padding-top: 40px;
   padding-bottom: 19px;
   background-color: var(--first-bg-color);
