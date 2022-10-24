@@ -21,85 +21,96 @@
     <!-- Header -->
     <div class="background">
       <header class="header">
-        <div class="container">
-          <nav class="navigation">
-            <!---->
+          <div class="container">
+           <nav class="navigation">
             <div class="logo-wrapper">
-            <!--img class="header-icon" src="./image/Vector-book1.svg" /-->
-              <a class="logo-first link" href="./index.html">
-                <svg class="header-icon ">
-                  <use href="./image/symbol-defs.svg#icon-header-book-open"></use>
-                </svg>
+              <!--img class="header-icon" src="./image/Vector-book1.svg" /-->
+                <a class="logo-first link" href="./index.html">
+                  <svg class="header-icon" width="40" height="35">
+                    <use href="./image/symbol-defs.svg#icon-header-book-open"></use>
+                  </svg>
               Finance<span class="logo-second link">Ledger</span>
-              </a>
+                </a>
             </div>
-            <!----->
             <ul class="nav-list list">
               <li class="nav-item">
                 <a class="nav-link link" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link" href="#">About</a>
+                <a class="nav-link link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link" href="#">Cases</a>
+                <a class="nav-link link" href="#cases">Cases</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link" href="#">Blog</a>
+                <a class="nav-link link" href="#blog">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link" href="#">Contact</a>
+                <a class="nav-link link" href="#contact">Contact</a>
               </li>
-            </ul>
-          </nav>
-        </div>
+              </ul>
+           </nav>
+          </div>
       </header>
-      <main>
-        <!-- Hero section -->
+      <div>
+      <!-- Hero section -->
+      <section class="hero">
         <div class="container">
-          <section class="hero">
-            <h1 class="hero-title">The Sky Is The Limit</h1>
+          <h1 class="hero-title">The Sky Is The Limit</h1>
             <p class="hero-text">We provide world class financial assistance</p>
-     <button type="button" class="hero-button">
-              <svg class="hero-button-icon" width="9px" height="18px">
-                <use href="./image/symbol-defs.svg#icon-button-icon"></use>
-              </svg>
-              Read More
-          </button>
+              <button type="button" class="hero-button">
+                <svg class="hero-button-icon" width="9px" height="18px">
+                  <use href="./image/symbol-defs.svg#icon-button-icon"></use>
+                </svg>
+                Read More
+              </button>
         </div>
       </section>
+    </div>
+    <main>
       <!-- Icon section -->
       <section class="icon">
         <div class="container">
           <ul class="icon-list list">
             <li class="icon-item">
-              <img class="svg-icon" src="" alt="">
+              <div class="icon-box">
+                <svg class="icon-svg" width="35" height="35">
+                  <use href="./image/symbol-defs.svg#icon-book-reader"></use>
+                </svg>
+              </div>
                 <h2 class="icon-title">Investmant Banking</h2>
                 <p class="icon-text">Lorem ipsum, dolor sit amet consectetur 
                   adipisicing elit. Consequatur, necessitatibus!</p>
-              </img>
             </li>
             <li class="icon-item">
-              <img class="svg-icon" src="" alt="">
+             <div class="icon-box">
+              <svg class="icon-svg" width="35" height="35">
+                <use href="./image/symbol-defs.svg#icon-pencil"></use>
+               </svg>
+             </div>
                 <h2 class="icon-title">Portfolio Manager</h2>
                 <p class="icon-text">Lorem ipsum, dolor sit amet consectetur 
                   adipisicing elit. Consequatur, necessitatibus!</p>
-              </img>
             </li>
             <li class="icon-item">
-              <img class="svg-icon" src="" alt="">
+              <div class="icon-box">
+                <svg class="icon-svg" width="35" height="35">
+                  <use href="./image/symbol-defs.svg#icon-university"></use>
+                </svg>
+              </div>
                 <h2 class="icon-title">Tax &#38; Custudio</h2>
                 <p class="icon-text">Lorem ipsum, dolor sit amet consectetur 
                   adipisicing elit. Consequatur, necessitatibus!</p>
-              </img>
             </li>
           </ul>
         </div>
       </section>
       <!-- What you are looking for section -->
-      <section class="command-section">
-        <img class="command-img" src="./image/command.jpg" alt="Our command" width="680" />
-        <p class="command-text-first">What you are looking for</p>
+      <section id="about" class="command-section">
+        <div class="command-container">
+          <img class="command-img" src="./image/command.jpg" alt="Our command" width="680" />
+        <div class="command-content">
+          <p class="command-text-first">What you are looking for</p>
         <h2 class="command-title">We provide bespoke solutions</h2>
         <p class="command-text-second">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
@@ -107,9 +118,11 @@
           itaque rerum temporibus doloribus iste maiores deleniti?
         </p>
         <button type="button" class="command-button">Read more</button>
+        </div>
+        </div>
       </section>
       <!--This is what we do-->
-      <section class="cases section">
+      <section id="cases" class="cases">
         <div class="container">
           <h2 class="cases-title">This is what we do</h2>
           <span class="cases-subtitle">Business cases</span>
@@ -165,22 +178,20 @@
         </div>
       </section>
       <!-- Blog Post One -->
-  <section class="blog-section">
-    <div class="container">
-      <div class="blog-container">
-        <h2 class="blog-title">
-          <time class="blog-date" datetime="2020-04-16">April 16 2020</time>
-        </h2>
-        <span class="blog-subtitle">Blog post one</span>
-        <p class="blog-text">
+      <section id="blog" class="blog-section">
+        <div class="blog-container">
+          <h2 class="blog-title">
+            <time class="blog-date" datetime="2020-04-16">April 16 2020</time>
+          </h2>
+          <span class="blog-subtitle">Blog post one</span>
+            <p class="blog-text">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
           quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
           itaque rerum temporibus doloribus iste maiores deleniti?
-        </p>
-        <button class="blog-button" type="button">Read our blog</button>
-      </div>
-    </div>
-  </section>
+            </p>
+              <button class="blog-button" type="button">Read our blog</button>
+        </div>
+      </section>
       <!--Team section  -->
       <section class="team">
         <div class="container">
@@ -253,12 +264,11 @@
               <p class="team-position">Marketing Head</p>
             </li>
           </ul>
-          
         </div>
       </section>
       <!--Request section -->
       <section class="request-section section">
-        <div class="request-container container">
+        <div class="request-container">
           <img
             src="./image/request.jpg"
             alt="man is sitting at the table holding phone in right hand and looking at the screen of the laptop"
@@ -267,7 +277,6 @@
           />
           <div class="request-form-container">
             <h2 class="request-title">Request callback</h2>
-
             <form action="submit">
               <label for="user-name" class="field-name"></label>
               <input
@@ -293,27 +302,39 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer id="contact" class="footer">
       <address class="address">
         <ul class="address-list list">
           <li class="address-item">
-            <a class="address-link" href="#">
-              <img src="./image/face.svg" alt="link to faccbook" />
+            <a class="address-link" href="https://www.facebook.com/" 
+            target="_blank" rel="noreferrer noopener">
+             <svg width="35" height="35">
+              <use href="./image/symbol-defs.svg#icon-facebook"></use>
+             </svg>
             </a>
           </li>
           <li class="address-item">
-            <a class="address-link" href="#">
-              <img src="./image/twitter.svg" alt="link to witter" />
+            <a class="address-link" href="https://twitter.com/" 
+            target="_blank" rel="noreferrer noopener">
+              <svg width="35" height="35">
+                <use href="./image/symbol-defs.svg#icon-twitter"></use>
+              </svg>
             </a>
           </li>
           <li class="address-item">
-            <a class="address-link" href="#">
-              <img src="./image/youtube.svg" alt="link to youtube" />
+            <a class="address-link" href="https://www.youtube.com/" 
+            target="_blank" rel="noreferrer noopener">
+             <svg width="40" height="35">
+              <use href="./image/symbol-defs.svg#icon-youtube"></use>
+             </svg>
             </a>
           </li>
           <li class="address-item">
-            <a class="address-link" href="#">
-              <img src="./image/in.svg" alt="link to linkedin" />
+            <a class="address-link" href="https://www.linkedin.com/" 
+            target="_blank" rel="noreferrer noopener">
+              <svg width="31" height="35">
+                <use href="./image/symbol-defs.svg#icon-linkedln"></use>
+              </svg>
             </a>
           </li>
         </ul>
