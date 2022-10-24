@@ -319,6 +319,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: left;
+  margin-left: 30px;
 }
 .blog-title {
   color: var(--main-wight-color);
