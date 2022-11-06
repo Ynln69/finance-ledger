@@ -59,7 +59,7 @@ img {
 
   background-color: var(--secondary-green-color);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../image/hero-rectangle.jpg);
+    url(../images/hero-rectangle.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -342,7 +342,7 @@ img {
   padding: 112px 0 123px 0;
   margin: 0 auto;
   max-width: 1360px;
-  background-image: url(../image/cup-of-coffee.jpg);
+  background-image: url(../images/cup-of-coffee.jpg);
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
