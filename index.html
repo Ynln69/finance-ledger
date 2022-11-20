@@ -5,17 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finance Ledger</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!-- Header -->
@@ -86,22 +76,75 @@
         </ul>
       </section>
       <!-- What you are looking for section -->
-      <section class="command-section">
-        <img
-          class="command-img"
-          src="./image/command.jpg"
-          alt="Our command"
-          width="680"
-        />
-        <p class="command-text-first">What you are looking for</p>
-        <h2 class="command-title">We provide bespoke solutions</h2>
-        <p class="command-text-second">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
-          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
-          iste maiores deleniti?
-        </p>
-        <button type="button" class="command-button">Read more</button>
+      <section class="command">
+        <picture>
+          <source
+            srcset="
+              ./image/command/command.webp    1x,
+              ./image/command/command@2x.webp 2x
+            "
+            media="(min-width: 1360px)"
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./image/command/command.jpg        1x,
+              ./image/command/command.jpg@2x.jpg 2x
+            "
+            media="(min-width: 1360px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              ./image/command/command320.webp    1x,
+              ./image/command/command320@2x.webp 2x
+            "
+            media="(min-width:320px)"
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./image/command/command320.jpg 1x,
+              ./image/command/command320.jpg 2x
+            "
+            media="(min-width: 320px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              ./image/command/command768.webp    1x,
+              ./image/command/command768@2x.webp 2x
+            "
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./image/command/command768.jpg     1x,
+              ../image/command/command768@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+            type="image/jpeg"
+          />
+          <img
+            class="command__img"
+            src="./image/command/command.jpg"
+            alt="Our command"
+            width="680"
+          />
+        </picture>
+
+        <div class="command__description">
+          <p class="command__text-first">What you are looking for</p>
+          <h2 class="command__title">We provide bespoke solutions</h2>
+          <p class="command__text-second">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
+            harum illum dolore explicabo ab dolores itaque rerum temporibus
+            doloribus iste maiores deleniti?
+          </p>
+          <button type="button" class="command__button">Read more</button>
+        </div>
       </section>
       <!-- Cases section -->
       <section class="cases section">

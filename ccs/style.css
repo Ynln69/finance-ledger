@@ -1,12 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 
 :root {
   --main-wight-color: #ffffff;
@@ -22,7 +13,11 @@ body {
   background-color: var(--main-wight-color);
   color: var(--main-text-color);
 
+<<<<<<< Updated upstream
   font-family: "Open Sans", sans-serif;
+=======
+  font-family: 'Open Sans', sans-serif;
+>>>>>>> Stashed changes
   font-size: 14px;
 }
 
@@ -103,21 +98,21 @@ body {
   line-height: 1.55;
 }
 /* Стилізація секції command */
-.command-section {
+.command {
   background-color: var(--secondary-green-color);
 }
-.command-img {
+.command__img {
   display: block;
   max-width: 680px;
 }
-.command-text-first {
+.command-text__first {
   color: var(--main-wight-color);
   font-size: 20px;
   line-height: 1.21;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.command-title {
+.command__title {
   color: var(--main-wight-color);
   font-style: 300, sans-serif;
   font-size: 38px;
@@ -125,7 +120,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.command-text-second {
+.command__text-second {
   color: var(--main-wight-color);
   font-size: 18px;
   line-height: 1.15;
@@ -133,7 +128,7 @@ body {
   margin-bottom: 0px;
   max-width: 606px;
 }
-.command-button {
+.command__button {
   font-style: inherit;
   color: var(--main-wight-color);
   background-color: var(--secondary-green-color);
